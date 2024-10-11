@@ -14,9 +14,8 @@ on:
   workflow_dispatch:
     inputs:
       model:
-        DIY_P2_SH: '选择机型'
+        descriptio: '选择机型'
         required: true
-        default: 'MI-R3G' 
         type: choice
         options:
           - 'miwifi-4'
