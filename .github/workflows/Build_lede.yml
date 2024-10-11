@@ -24,6 +24,7 @@ on:
           - 'Redmi_AC2100'
           - 'K2P'
           - 'B70'
+          - 'B70'
           - 'miwifi-mini'
           - 'miwifi-3'
           - 'miwifi-3x'
