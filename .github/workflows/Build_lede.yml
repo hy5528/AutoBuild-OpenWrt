@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
     inputs:
       model:
-        description: '选择机型'
+        DIY_P2_SH: '选择机型'
         required: true
         default: 'MI-R3G' 
         type: choice
@@ -58,9 +58,9 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: config/21.02/Yuos_${{ github.event.inputs.model }}.config
-  DIY_P1_SH: diy-part8.sh
-  DIY_P2_SH: diy-part9.sh
+  CONFIG_FILE: config/${{ github.event.inputs.model }}.config
+  DIY_P1_SH: diy/diy-part1.sh
+  DIY_P2_SH: diy/${{ github.event.inputs.model }}.sh
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
 
