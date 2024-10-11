@@ -7,7 +7,7 @@
 # Description: Build OpenWrt using GitHub Actions
 # Modified for ImmortalWrt/immortalwrt
 
-name: 云编译_ImmortalWrt
+name: 云编译_ImmortalWrt mt798x
 
 on:
   repository_dispatch:
