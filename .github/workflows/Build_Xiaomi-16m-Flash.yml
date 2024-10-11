@@ -7,7 +7,7 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 
-name: 小米Flas16M路由器-科学定制编译
+name: 小米Flas16M路由器车固件
 
 on:
   repository_dispatch:
